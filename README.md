@@ -31,5 +31,5 @@ The project uses Django as the backend framework and includes both API endpoints
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/AI-Developer-Test.git
-cd AI-Developer-Test
+git clone https://github.com/nikhil242000/codaemon_audio_upload_full.git
+cd codaemon_audio_upload_full

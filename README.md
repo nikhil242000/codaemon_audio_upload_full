@@ -33,3 +33,24 @@ The project uses Django as the backend framework and includes both API endpoints
 ```bash
 git clone https://github.com/nikhil242000/codaemon_audio_upload_full.git
 cd codaemon_audio_upload_full
+
+2. Create and activate a virtual environment:
+   # Windows:
+   python -m venv venv
+   venv\Scripts\activate
+   # Mac/Linux:
+   python -m venv venv
+   source venv/bin/activate
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Apply database migrations:
+   python manage.py migrate
+
+5. Run the development server:
+   python manage.py runserver
+
+6. Access the application:
+   - Frontend demo: http://127.0.0.1:8000/
+   - REST API endpoints: http://127.0.0.1:8000/api/users/

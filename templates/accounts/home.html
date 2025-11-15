@@ -1,0 +1,28 @@
+{% extends 'accounts/base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<style>
+  .top-logo {
+      position: absolute;
+      top: 10px;
+      left: 40px;
+      width: 80px;
+      height: auto;
+      z-index: 999;
+  }
+</style>
+
+
+<!-- Company Logo at Top Right -->
+<img src="{% static 'images/company_logo.jpg' %}" alt="Company Logo" class="top-logo">
+
+<div class="card" style="margin-top: 80px;">
+  <div class="card-body">
+    <h3>Welcome to the Codaemon Audio demo</h3>
+    <p>Register and verify your email (link printed to terminal). Then upload, play, and replace your audio on the My Audio page.</p>
+    <p>If New User Please Register and verify your email (link printed to terminal)</p>
+  </div>
+</div>
+{% endblock %}

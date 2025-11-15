@@ -1,20 +1,35 @@
-# Codaemon Audio Upload - Full Demo
+# AI Developer Technical Test – Django Full-Stack Application
 
-This Django project demonstrates:
-- User registration (email verification via console backend)
-- Login / logout
-- Per-user audio upload, play and replace (stored under media/user_audios)
-- API endpoints for fetching user info and uploading audio (DRF)
+## Project Overview
+This project is a full-stack Django application designed as part of the AI Developer technical test for Codaemon Softwares.  
+The application allows:  
+- Fetching user details via a REST API endpoint  
+- Uploading audio files for a user  
+- Playing and updating audio files  
 
-Quick start:
-Step 1
-venv\Scripts\Activate   (Windows: venv\Scripts\activate)
-Step 2
-. python manage.py runserver
+The project uses Django as the backend framework and includes both API endpoints and a simple frontend interface for demonstration.
 
+---
 
- Register at http://127.0.0.1:8000/register/ and check the terminal for verification link
+## Features
+1. **User Details API** – Retrieve user information via REST API.  
+2. **Audio Upload** – Upload audio files associated with a user.  
+3. **Audio Playback** – Play uploaded audio directly from the frontend.  
+4. **Audio Update** – Replace or update an existing audio file.  
 
- Login and visit http://127.0.0.1:8000/audio/ to upload/play/replace audio
+---
 
+## Technologies Used
+- **Backend:** Django 5.x, Django REST Framework  
+- **Database:** SQLite (default; can be replaced with PostgreSQL/MySQL)  
+- **Frontend:** HTML, CSS, JavaScript (basic UI for demo)  
+- **Other:** Python 3.11+, Git, GitHub  
 
+---
+
+## Installation & Setup
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/your-username/AI-Developer-Test.git
+cd AI-Developer-Test
